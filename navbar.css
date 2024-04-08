@@ -1,4 +1,7 @@
 header nav{
+    --black: #0E0E0E;
+    --white: #E9E9E9;
+    --dark_red: #911212;
     margin-top: 1em;
     margin-bottom: 10em;
     display: flex;
@@ -11,4 +14,9 @@ a{
 header nav a{
     font-weight: 100;
     font-size: 1.3em;
+    transition-duration: 0.2s;
+}
+
+header nav a:hover{
+    color: var(--dark_red);
 }
