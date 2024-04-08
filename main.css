@@ -1,7 +1,4 @@
-html{
-    --black: #0E0E0E;
-    --white: #E9E9E9;
-}
+
 
 body{
     background-color: var(--black);

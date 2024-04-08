@@ -1,6 +1,7 @@
-
-
-
+html{
+    --black: #0E0E0E;
+    --white: #E9E9E9;
+}
 
 main{
     margin-left: 10em;
@@ -21,10 +22,45 @@ main{
 #genres a{
     font-weight: 400;
     font-size: 2em;
+    transition-duration: 0.2s;
 }
 
-#motto{
+#genres a:hover{
+    transform: translateY(-0.2em);
+    
+}
+
+
+
+#ftr{
+    color: var(--white);
     width: 100%;
     text-align: center;
     font-weight: 100;
+}
+
+#motto{
+    color: var(--black);
+    animation-name: flashing_text;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes flashing_text{
+    0%{
+        color: var(--black);
+    }
+    50%{
+        color: var(--black);
+    }
+    51%{
+        color: var(--white);
+    }
+    52%{
+        color:var(--black)
+    }
+    100%{
+        color: var(--black);
+    }
 }
