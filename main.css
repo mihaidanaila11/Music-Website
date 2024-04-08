@@ -1,0 +1,26 @@
+html{
+    --black: #0E0E0E;
+    --white: #E9E9E9;
+}
+
+body{
+    background-color: var(--black);
+    color: var(--white);
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin-left: 10em;
+    margin-right: 10em;
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+h1{
+    font-weight: 300;
+    font-size: 4em;
+}
+
+h2{
+    font-weight: 100;
+}

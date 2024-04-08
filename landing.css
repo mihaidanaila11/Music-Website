@@ -1,0 +1,30 @@
+
+
+
+
+main{
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-bottom: 10em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#genres{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+#genres a{
+    font-weight: 400;
+    font-size: 2em;
+}
+
+#motto{
+    width: 100%;
+    text-align: center;
+    font-weight: 100;
+}
