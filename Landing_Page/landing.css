@@ -31,7 +31,7 @@ h1{
 
 #genres a:hover{
     transform: translateY(-0.2em);
-    
+    text-decoration: underline;
 }
 
 
