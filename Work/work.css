@@ -1,0 +1,25 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    background-color:#272727;
+    border: none;
+    border-radius: 0.2em;
+    margin-bottom: 1em;
+    color: var(--white);  
+
+}
+
+input[type="submit"]{
+    --black: #0E0E0E;
+    --white: #E9E9E9;
+    background-color: #414141;
+}
