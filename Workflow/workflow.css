@@ -1,0 +1,27 @@
+#vid{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    flex-wrap: wrap;
+    height: 27em;
+    align-items: flex-start;
+}
+
+#vid video{
+    width: 50%;
+}
+
+.text_strong{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text_strong span{
+    font-weight: 500;
+    font-size: 4.5em;
+}
+
+.text_strong span:nth-child(2n){
+    color: rgb(0, 146, 15);
+}
