@@ -6,8 +6,8 @@ body{
     background-color: var(--black);
     color: var(--white);
     font-family: "Segoe UI", Arial, sans-serif;
-    margin-left: 10em;
-    margin-right: 10em;
+    margin-left: 10vw;
+    margin-right: 10vw;
     
 }
 

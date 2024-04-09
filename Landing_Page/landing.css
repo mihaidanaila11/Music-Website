@@ -4,9 +4,9 @@ html{
 }
 
 main{
-    margin-left: 10em;
-    margin-right: 10em;
-    margin-bottom: 10em;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 10vw;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -61,4 +61,9 @@ h1{
     100%{
         color: var(--black);
     }
+}
+
+
+img{
+    filter: invert(100%);
 }
