@@ -20,3 +20,10 @@ header nav a{
 header nav a:hover{
     color: var(--dark_red);
 }
+
+@media screen and (max-width: 768px) {
+    nav{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}
