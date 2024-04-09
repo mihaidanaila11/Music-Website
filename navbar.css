@@ -17,6 +17,14 @@ header nav a{
     transition-duration: 0.2s;
 }
 
+header nav a::before{
+    content: "@_ $#";
+}
+
+header nav a::after{
+    content: "_-{";
+}
+
 header nav a:hover{
     color: var(--dark_red);
 }
