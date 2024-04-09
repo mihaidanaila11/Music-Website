@@ -35,4 +35,4 @@ folosirea coloanelor pentru layoutul a cel puțin unei pagini;
 
 - [x] Site-ul trebuie să conțină o animație care să modifice mai multe proprietăți ale aceluiași element
 
-- [ ] ! bonus point ! pentru generarea conținutului folosind :after, :before (dar să aibă sens; fiți creativi)
+- [x] ! bonus point ! pentru generarea conținutului folosind :after, :before (dar să aibă sens; fiți creativi)
