@@ -12,7 +12,7 @@ CSS:
 
 - [x] Trecerea testelor de validare CSS https://jigsaw.w3.org/css-validator/
 
-- [ ] Site-ul trebuie să fie responsive (media query, unități relative, tipuri de display)
+- [x] Site-ul trebuie să fie responsive (media query, unități relative, tipuri de display)
 
 - [x] Folosirea selectorilor CSS de bază (după id, clasă, tag, elementContinut, elementCopil, al n-lea copil de tipul unui tag :nth-of-type)
 
@@ -25,6 +25,6 @@ folosirea coloanelor pentru layoutul a cel puțin unei pagini;
 
 - [ ] Site-ul trebuie să conțină o tranziție care implică schimbarea mai multor proprietăți la intervale diferite de timp
 
-- [ ] Site-ul trebuie să conțină o animație care să modifice mai multe proprietăți ale aceluiași element
+- [x] Site-ul trebuie să conțină o animație care să modifice mai multe proprietăți ale aceluiași element
 
 - [ ] ! bonus point ! pentru generarea conținutului folosind :after, :before (dar să aibă sens; fiți creativi)
