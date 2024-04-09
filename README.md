@@ -3,13 +3,13 @@
 ## Cerințe generale minimale pentru partea 1 (HTML + CSS):
 HTML:
 
-[x] Trecerea testelor de validare HTML http://validator.w3.org/
+- [x] Trecerea testelor de validare HTML http://validator.w3.org/
 
-[x] Folosirea tagurilor semantice prezentate la curs/laborator
+- [x] Folosirea tagurilor semantice prezentate la curs/laborator
 
 CSS:
 
-fișiere separate pentru HTML și CSS
+Fișiere separate pentru HTML și CSS
 conținutul site-ului trebuie să aibă sens (nu îl umpleți cu Lorem ipsum)
 nu este acceptată folosirea de frameworkuri și librării
 HTML:
