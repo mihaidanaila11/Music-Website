@@ -4,6 +4,7 @@
 HTML:
 
 [x] Trecerea testelor de validare HTML http://validator.w3.org/
+
 [x] Folosirea tagurilor semantice prezentate la curs/laborator
 
 CSS:
