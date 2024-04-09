@@ -1,6 +1,8 @@
 
 
 body{
+    --black: #0E0E0E;
+    --white: #E9E9E9;
     background-color: var(--black);
     color: var(--white);
     font-family: "Segoe UI", Arial, sans-serif;
@@ -9,9 +11,6 @@ body{
     
 }
 
-h1,h2,h3,h4,h5,h6{
-    margin: 0;
-}
 
 h1{
     font-weight: 300;
@@ -19,5 +18,13 @@ h1{
 }
 
 h2{
+    font-weight: 100;
+}
+
+
+#ftr{
+    color: var(--white);
+    width: 100%;
+    text-align: center;
     font-weight: 100;
 }
