@@ -31,7 +31,7 @@ folosirea coloanelor pentru layoutul a cel puțin unei pagini;
 
 - [x] Site-ul trebuie să conțină un menu drop-down (sau altfel expandabil) realizat cu CSS
 
-- [ ] Site-ul trebuie să conțină o tranziție care implică schimbarea mai multor proprietăți la intervale diferite de timp
+- [x] Site-ul trebuie să conțină o tranziție care implică schimbarea mai multor proprietăți la intervale diferite de timp
 
 - [x] Site-ul trebuie să conțină o animație care să modifice mai multe proprietăți ale aceluiași element
 
