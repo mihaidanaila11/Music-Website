@@ -1,5 +1,7 @@
 # Music-Website
 
+## Testeaza pagina [aici](https://mihaidanaila11.github.io/Music-Website/Landing_Page/landing.html).
+
 ## Cerințe generale minimale pentru partea 1 (HTML + CSS):
 HTML:
 
