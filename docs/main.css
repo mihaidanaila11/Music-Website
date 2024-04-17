@@ -1,0 +1,42 @@
+
+
+body{
+    --black: #0E0E0E;
+    --white: #E9E9E9;
+    background-color: var(--black);
+    color: var(--white);
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    
+}
+
+
+h1{
+    font-weight: 300;
+    font-size: 4em;
+}
+
+h2{
+    font-weight: 100;
+}
+
+
+#ftr{
+    color: var(--white);
+    width: 100%;
+    text-align: center;
+    font-weight: 100;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #171717;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #252525;
+}

@@ -1,0 +1,42 @@
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1, h2{
+    margin: 0;
+}
+
+#me{
+    height: 50vh;
+    border-radius: 2em;
+}
+
+#desc{
+    text-align: end;
+}
+
+#dropdown_svg{
+    width: 20px;
+    filter: invert(100%);
+}
+
+
+#contact_info{
+    display: none;
+}
+
+#contact_info a{
+    text-decoration: underline;
+}
+
+#contact_hover:hover #contact_info{
+    display: block;
+}
+
+@media screen and (max-width: 970px) {
+    main{
+        flex-direction: column;
+    }
+}
