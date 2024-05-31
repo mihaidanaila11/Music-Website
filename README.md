@@ -62,3 +62,5 @@ B. AJAX & Node.js
 - [ ] cereri Ajax cu preluare date dintr-un fișier json
 - [ ] sesiuni: login/logout (cu Node.js sau Storage)
 - [ ] pagină pentru eroarea 404
+
+- [ ] Pe lângă implementarea acestor cerințe minimale (a căror rezolvare corectă nu garantează punctajul maxim), includeți în proiect și tratarea altor probleme (la alegere) precum cea a accesibilității, internaționalizării (traducere, caractere speciale etc.), folosirii canvas/svg etc.
