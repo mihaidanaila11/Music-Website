@@ -56,6 +56,7 @@ A. JavaScript
 - [ ] folosirea proprietăților classList, target sau currentTarget
 - [ ] folosirea metodelor getComputedStyle, stopPropagation
 - [ ] validarea datelor dintr-un formular folosind expresii regulate
+      
 B. AJAX & Node.js
 
 - [ ] cereri get/post: preluare date dintr-un formular
