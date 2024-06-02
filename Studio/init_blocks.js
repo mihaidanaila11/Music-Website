@@ -88,9 +88,43 @@ function init_blocks() {
 
         document.getElementById("inventory_percs").appendChild(newBlock);
     }
+
+    if (localStorage.getItem("melody_selected") == 1) {
+        document.getElementById(localStorage.getItem("current_melody")).style.backgroundColor = "red";
+        selected = document.getElementById("selected_melody");
+        selected.style.display = "flex";
+        selected.childNodes[1].childNodes[0].nodeValue = localStorage.getItem("last_melody_name");
+        selected.childNodes[3].childNodes[0].nodeValue = localStorage.getItem("last_melody_bpm");
+        selected.childNodes[5].childNodes[0].nodeValue = localStorage.getItem("last_melody_key");
+    }
+    else {
+        localStorage.setItem("current_melody", null);
+    }
+
+    if (localStorage.getItem("drums_selected") == 1) {
+        document.getElementById(localStorage.getItem("current_drums")).style.backgroundColor = "red";
+        console.log(document.getElementById("selected_drums"));
+        selected = document.getElementById("selected_drums");
+        selected.style.display = "flex";
+        selected.childNodes[1].childNodes[0].nodeValue = localStorage.getItem("last_drums_name");
+        selected.childNodes[3].childNodes[0].nodeValue = localStorage.getItem("last_drums_bpm");
+    }
+    else {
+        localStorage.setItem("current_drums", null);
+    }
+
+    if (localStorage.getItem("percs_selected") == 1) {
+        document.getElementById(localStorage.getItem("current_percs")).style.backgroundColor = "red";
+        console.log(document.getElementById("selected_percs"));
+        selected = document.getElementById("selected_percs");
+        selected.style.display = "flex";
+        selected.childNodes[1].childNodes[0].nodeValue = localStorage.getItem("last_percs_name");
+        selected.childNodes[3].childNodes[0].nodeValue = localStorage.getItem("last_percs_bpm");
+    }
+    else {
+        localStorage.setItem("current_percs", null);
+    }
+
 }
 
 document.addEventListener("DOMContentLoaded", init_blocks, false);
-localStorage.setItem("current_melody", null);
-localStorage.setItem("current_drums", null);
-localStorage.setItem("current_percs", null);
