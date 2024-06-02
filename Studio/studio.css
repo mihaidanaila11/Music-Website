@@ -1,0 +1,101 @@
+main{
+	width: 100%;
+}
+
+#studio{
+	background-color: #252525;
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	width: 100%;
+	border: 0.2em solid #4f4f4f
+}
+
+
+.track{
+	border: 0.2em solid #0E0E0E;
+	display: flex;
+	height: 20vh;
+	justify-content: center;
+	align-items: center;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+.timeline{
+	border: 0.2em solid #0E0E0E;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+.timeline_track{
+	border: 0.2em solid #0E0E0E;
+}
+
+
+.selected_track{
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+	height: 80%;
+	background-color: rebeccapurple;
+	border-radius: 1vw;
+}
+
+.timeline_track_title{
+	font-weight: 700;
+	font-size: 2.5em;
+}
+
+.timeline_track_info{
+	font-style: italic;
+	font-size: 1.2em;
+}
+
+#inventory{
+	background-color: #252525;
+	width: 100%;
+	border: 0.2em solid #4f4f4f
+}
+
+
+.inventory_track_name{
+	border: 0.2em solid #0E0E0E;
+	width: 25%;
+}
+
+.inventory_track_container{
+	border: 0.2em solid #0E0E0E;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.inventory_track{
+	display: flex;
+}
+
+.inventory_track_block{
+	background-color: #4f4f4f	;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	border-radius: 1vw;
+	height: 15vh;
+	width: 15vw;
+}
+
+.inventory_track_title{
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+.inventory_track_info{
+	font-style: italic;
+}
