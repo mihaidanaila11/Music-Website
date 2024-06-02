@@ -103,7 +103,6 @@ function init_blocks() {
 
     if (localStorage.getItem("drums_selected") == 1) {
         document.getElementById(localStorage.getItem("current_drums")).style.backgroundColor = "red";
-        console.log(document.getElementById("selected_drums"));
         selected = document.getElementById("selected_drums");
         selected.style.display = "flex";
         selected.childNodes[1].childNodes[0].nodeValue = localStorage.getItem("last_drums_name");
@@ -115,7 +114,6 @@ function init_blocks() {
 
     if (localStorage.getItem("percs_selected") == 1) {
         document.getElementById(localStorage.getItem("current_percs")).style.backgroundColor = "red";
-        console.log(document.getElementById("selected_percs"));
         selected = document.getElementById("selected_percs");
         selected.style.display = "flex";
         selected.childNodes[1].childNodes[0].nodeValue = localStorage.getItem("last_percs_name");

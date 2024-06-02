@@ -1,3 +1,4 @@
+
 function switchDisplay(div) {
     if (window.getComputedStyle(div, null).getPropertyValue("display") == "flex") {
         localStorage.setItem(div.id + "_display", null);
@@ -70,7 +71,6 @@ function click_event(event) {
     localStorage_id = "current_" + track_category;
 
     timeline_block = "selected_" + track_category;
-    console.log(timeline_block);
     if (localStorage.getItem(localStorage_id) == "null") {
         document.getElementById(timeline_block).style.display = "flex";
         localStorage.setItem(div.id + "_display", "flex");
@@ -96,12 +96,9 @@ function click_event(event) {
         div.style.backgroundColor = "red";
         document.getElementById(localStorage.getItem(localStorage_id)).style.backgroundColor = "#4f4f4f";
     }
-    console.log("clicked " + div.id);
-    console.log("current " + localStorage.getItem(localStorage_id));
     localStorage.setItem(localStorage_id, div.id);
     select_block(track_info, track_category);
 
-    // alert(track_category + "\n" + track_info.name + "\n" + track_info.bpm + "\n" + track_info.key);
 }
 
 document.addEventListener("click", click_event, false);
