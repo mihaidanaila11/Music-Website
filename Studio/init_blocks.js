@@ -1,7 +1,7 @@
 function init_blocks() {
     var melodies = {
         "melodies": [
-            { "name": "Melody1", "bpm": 140, "key": "Cmaj" },
+            { "name": "Melody1", "bpm": 140, "key": "CMaj" },
             { "name": "Melody2", "bpm": 130, "key": "D#Min" },
             { "name": "Melody3", "bpm": 130, "key": "D#Min" },
             { "name": "Melody4", "bpm": 130, "key": "D#Min" }
@@ -15,10 +15,10 @@ function init_blocks() {
         ]
     };
 
-    var percs = {
-        "percs": [
-            { "name": "Percs1", "bpm": 140},
-            { "name": "Percs2", "bpm": 70}
+    var counters = {
+        "counters": [
+            { "name": "Counter1", "bpm": 140, "key" : "CMaj"},
+            { "name": "Counter2", "bpm": 70, "key" : "D#min"}
         ]
     };
     for (melody in melodies.melodies) {
@@ -69,24 +69,30 @@ function init_blocks() {
         document.getElementById("inventory_drums").appendChild(newBlock);
     }
 
-    for (perc in percs.percs) {
+    for (counter in counters.counters) {
         newBlock = document.createElement("div");
-        newBlock.id = percs.percs[perc].name.toLowerCase();
-        newBlock.className = "inventory_track_block perc";
+        newBlock.id = counters.counters[counter].name.toLowerCase();
+        newBlock.className = "inventory_track_block counter";
 
         track_title_span = document.createElement("span");
         track_title_span.className = "inventory_track_title inventory_info";
-        track_title = document.createTextNode(percs.percs[perc].name);
+        track_title = document.createTextNode(counters.counters[counter].name);
         track_title_span.appendChild(track_title);
         newBlock.appendChild(track_title_span);
 
         track_BPM_span = document.createElement("span");
         track_BPM_span.className = "inventory_track_info inventory_info";
-        track_BPM = document.createTextNode("BPM: " + percs.percs[perc].bpm);
+        track_BPM = document.createTextNode("BPM: " + counters.counters[counter].bpm);
         track_BPM_span.appendChild(track_BPM);
         newBlock.appendChild(track_BPM_span);
 
-        document.getElementById("inventory_percs").appendChild(newBlock);
+        track_key_span = document.createElement("span");
+        track_key_span.className = "inventory_track_info inventory_info";
+        track_key = document.createTextNode("Key: " + counters.counters [counter].key);
+        track_key_span.appendChild(track_key);
+        newBlock.appendChild(track_key_span);
+
+        document.getElementById("inventory_counter").appendChild(newBlock);
     }
 
     if (localStorage.getItem("melody_selected") == 1) {
@@ -112,15 +118,16 @@ function init_blocks() {
         localStorage.setItem("current_drums", null);
     }
 
-    if (localStorage.getItem("percs_selected") == 1) {
-        document.getElementById(localStorage.getItem("current_percs")).style.backgroundColor = "red";
-        selected = document.getElementById("selected_percs");
+    if (localStorage.getItem("counter_selected") == 1) {
+        document.getElementById(localStorage.getItem("current_counter")).style.backgroundColor = "red";
+        selected = document.getElementById("selected_counter");
         selected.style.display = "flex";
-        selected.childNodes[1].childNodes[0].nodeValue = localStorage.getItem("last_percs_name");
-        selected.childNodes[3].childNodes[0].nodeValue = localStorage.getItem("last_percs_bpm");
+        selected.childNodes[1].childNodes[0].nodeValue = localStorage.getItem("last_counter_name");
+        selected.childNodes[3].childNodes[0].nodeValue = localStorage.getItem("last_counter_bpm");
+        selected.childNodes[5].childNodes[0].nodeValue = localStorage.getItem("last_counter_key");
     }
     else {
-        localStorage.setItem("current_percs", null);
+        localStorage.setItem("current_counter", null);
     }
 
 }

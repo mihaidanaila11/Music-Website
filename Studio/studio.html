@@ -14,7 +14,7 @@
     <script src="init_blocks.js"></script>
     <header>
         <nav>
-            <a href="landing.html">My music</a>
+            <a href="../Landing_Page/landing.html">My music</a>
             <a href="../Workflow/workflow.html">How do I work?</a>
             <a href="../About/about.html">Who am I?</a>
             <a href="../Work/work.html">Let's work!</a>
@@ -29,30 +29,34 @@
             <div>
                 <div class="track">Melody</div>
                 <div class="track">Drums</div>
-                <div class="track">Percs</div>
+                <div class="track">counter</div>
             </div>
             <div class="timeline">
                 <div class="timeline_track" id="melody_timeline">
                     <div class="selected_track" id="selected_melody">
-                        <span class="timeline_track_title">Melody1</span>
-                        <span class="timeline_track_info">BPM: 120</span>
-                        <span class="timeline_track_info">Key: Cmin</span>
+                        <span class="timeline_track_title name">Melody1</span>
+                        <span class="timeline_track_info bpm">BPM: 120</span>
+                        <span class="timeline_track_info key">Key: Cmin</span>
                     </div>
                 </div>
                 <div class="timeline_track" id="drums_timeline">
                     <div class="selected_track" id="selected_drums">
-                        <span class="timeline_track_title">Melody1</span>
-                        <span class="timeline_track_info">BPM: 120</span>
+                        <span class="timeline_track_title name">Melody1</span>
+                        <span class="timeline_track_info bpm">BPM: 120</span>
                     </div>
                 </div>
-                <div class="timeline_track" id="percs_timeline">
-                    <div class="selected_track" id="selected_percs">
-                        <span class="timeline_track_title">Melody1</span>
-                        <span class="timeline_track_info">Melody1</span>
+                <div class="timeline_track" id="counter_timeline">
+                    <div class="selected_track" id="selected_counter">
+                        <span class="timeline_track_title name">Melody1</span>
+                        <span class="timeline_track_info bpm">BPM: 120</span>
+                        <span class="timeline_track_info key">Key: Cmin</span>
                     </div>
                 </div>
             </div>
+            <script src="colorTimeline.js"></script>
         </div>
+
+
 
         <h2>Block inventory </h2>
 
@@ -71,9 +75,8 @@
             </div>
 
             <div class = inventory_track>
-                <div class="inventory_track_name">Percs</div>
-                <div class="inventory_track_container" id="inventory_percs">
-                   <!-- <div class="inventory_track_block" id="melody_1">Melody1</div> -->
+                <div class="inventory_track_name">Counter Melody</div>
+                <div class="inventory_track_container" id="inventory_counter">
                 </div>
             </div>
         </div>
