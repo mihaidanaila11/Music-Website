@@ -21,15 +21,23 @@
     </header>
 
     <main>
-        <form>
-            <label for="first_name">First Name:</label>
-            <input type="text" name="First Name" id="first_name">
-            <label for="last_name">Last Name:</label>
-            <input type="text" name="Last Name" id="last_name">
-            <label for="mail">E-mail:</label>
-            <input type="text" name="mail" id="mail">
-            <label for="song">Upload your Song:</label>
-            <input type="file" name="song" id="song"> 
+        <form id="contactForm">
+            <label for="first_name">First Name:
+                <span aria-label="required">*</span>
+            </label>
+            <input type="text" name="First Name" id="first_name" pattern="[a-zA-Z]{2,}" required>
+            <label for="last_name">Last Name:
+                <span aria-label="required">*</span>
+            </label>
+            <input type="text" name="Last Name" id="last_name" pattern="[a-zA-Z]{2,}" required>
+            <label for="mail">E-mail
+                <span aria-label="required">*</span>:</label>
+            <input type="email" name="mail" id="mail" required>
+            <label for="phoneNumber">Phone (+40):</label>
+            <input type="tel" name="phoneNumber" id="phoneNumber" pattern="(07){1}\d{8}" title="10 digit number (e.g. 0711 111 111)"placeholder="0711 111 111">
+            <label for="song">Upload your Song:
+                <span aria-label="required">*</span></label required>
+            <input type="file" name="song" id="song" accept="audio/mp3, audio/wav"> 
             <input type="submit">
         </form>
     </main>
