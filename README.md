@@ -42,18 +42,18 @@ folosirea coloanelor pentru layoutul a cel puțin unei pagini;
 ## Cerințe generale minimale pentru partea 2 (JavaScript + Node.js misc):
 A. JavaScript
 
-- [ ] fișier separat pentru codul JavaScript
-- [ ] modificarea stilului unui element sau al unui grup de elemente
-- [ ] manipularea DOM-ului (selectare după id, tag, clasă, folosind selectori CSS)
-- [ ] crearea și stergerea de elemente HTML
-- [ ] folosirea și modificarea evenimentelor generate de mouse si tastatură
-- [ ] modificare de proprietăți
-- [ ] inputuri funcționale (de exemplu: input de tip text/range/number/radio/checkbox, select, textarea)
-- [ ] folosirea setTimeout sau setInterval
-- [ ] folosirea localStorage (să se pastreze în localStorage o colecție de elemente)
-- [ ] folosirea a cel puțin unei metode din clasele: Math, Array, String, Date
-- [ ] schimbarea aleatoare a valorilor unei proprietăți (de exemplu: culoare, dimensiuni, poziție)
-- [ ] folosirea proprietăților classList, target sau currentTarget
+- [x] fișier separat pentru codul JavaScript
+- [x] modificarea stilului unui element sau al unui grup de elemente
+- [x] manipularea DOM-ului (selectare după id, tag, clasă, folosind selectori CSS)
+- [x] crearea și stergerea de elemente HTML
+- [x] folosirea și modificarea evenimentelor generate de mouse si tastatură
+- [x] modificare de proprietăți
+- [x] inputuri funcționale (de exemplu: input de tip text/range/number/radio/checkbox, select, textarea)
+- [x] folosirea setTimeout sau setInterval
+- [x] folosirea localStorage (să se pastreze în localStorage o colecție de elemente)
+- [x] folosirea a cel puțin unei metode din clasele: Math, Array, String, Date
+- [x] schimbarea aleatoare a valorilor unei proprietăți (de exemplu: culoare, dimensiuni, poziție)
+- [x] folosirea proprietăților classList, target sau currentTarget
 - [ ] folosirea metodelor getComputedStyle, stopPropagation
 - [ ] validarea datelor dintr-un formular folosind expresii regulate
       

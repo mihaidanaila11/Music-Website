@@ -34,36 +34,6 @@ h1{
     text-decoration: underline;
 }
 
-
-
-
-#motto{
-    color: var(--black);
-    animation-name: flashing_text;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
-
-
-@keyframes flashing_text{
-    0%{
-        color: var(--black);
-    }
-    50%{
-        color: var(--black);
-    }
-    51%{
-        color: var(--white);
-    }
-    52%{
-        color:var(--black)
-    }
-    100%{
-        color: var(--black);
-    }
-}
-
-
 img{
     filter: invert(100%);
 }
