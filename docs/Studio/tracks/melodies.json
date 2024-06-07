@@ -1,0 +1,6 @@
+{
+    "melodies" :[
+        {"name":"Melody1", "bpm":140, "key":"Cmaj"},
+        {"name":"Melody2", "bpm":130, "key":"D#Min"}
+    ]
+}
