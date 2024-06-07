@@ -2,6 +2,13 @@
 
 ## Testeaza pagina [aici](https://mihaidanaila11.github.io/Music-Website/Landing_Page/landing.html).
 
+## Instructiuni de utilizare a paginii:
+
+Inainte de a porni desrevrul ``index.js`` este nevoie de rularea urmatoarelor comenzi pentru instalarea dependentelor:
+- `` npm install express --save``
+- ``npm install formidable --save``
+- ``npm install express-session –save``
+
 ## Cerințe generale minimale pentru partea 1 (HTML + CSS):
 HTML:
 
@@ -54,14 +61,14 @@ A. JavaScript
 - [x] folosirea a cel puțin unei metode din clasele: Math, Array, String, Date
 - [x] schimbarea aleatoare a valorilor unei proprietăți (de exemplu: culoare, dimensiuni, poziție)
 - [x] folosirea proprietăților classList, target sau currentTarget
-- [ ] folosirea metodelor getComputedStyle, stopPropagation
-- [ ] validarea datelor dintr-un formular folosind expresii regulate
+- [x] folosirea metodelor getComputedStyle, stopPropagation
+- [x] validarea datelor dintr-un formular folosind expresii regulate
       
 B. AJAX & Node.js
 
-- [ ] cereri get/post: preluare date dintr-un formular
-- [ ] cereri Ajax cu preluare date dintr-un fișier json
-- [ ] sesiuni: login/logout (cu Node.js sau Storage)
-- [ ] pagină pentru eroarea 404
+- [x] cereri get/post: preluare date dintr-un formular
+- [x] cereri Ajax cu preluare date dintr-un fișier json
+- [x] sesiuni: login/logout (cu Node.js sau Storage)
+- [x] pagină pentru eroarea 404
 
-- [ ] Pe lângă implementarea acestor cerințe minimale (a căror rezolvare corectă nu garantează punctajul maxim), includeți în proiect și tratarea altor probleme (la alegere) precum cea a accesibilității, internaționalizării (traducere, caractere speciale etc.), folosirii canvas/svg etc.
+- [x] Pe lângă implementarea acestor cerințe minimale (a căror rezolvare corectă nu garantează punctajul maxim), includeți în proiect și tratarea altor probleme (la alegere) precum cea a accesibilității, internaționalizării (traducere, caractere speciale etc.), folosirii canvas/svg etc.

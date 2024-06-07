@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="landing.css">
+    <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="../navbar.css">
     <link rel="stylesheet" href="../main.css">
     <title>Imp0rt Beats</title>
@@ -13,33 +13,28 @@
 <body>
     <header>
         <nav>
-            <a href="landing.html">My music</a>
+            <a href="../Landing_Page/landing.html">My music</a>
             <a href="../Workflow/workflow.html">How do I work?</a>
             <a href="../About/about.html">Who am I?</a>
             <a href="../Work/work.html">Let's work!</a>
             <a href="../Studio/studio.html">Studio</a>
         </nav>
     </header>
-
     <main>
-        <div>
-            <h1>Meet my<br>Work</h1>
-            <h2><i>Or buy it (?)</i></h2>
-        </div>
-        <div id="genres">
-            <a href="../Hip-Hop/hiphop.html">Hip-Hop_</a>
-            <a href="../Trap/Trap.html">Trap.</a>
-            <a href="../Rock/rock.html">Rock!</a>
-        </div>
+        <form id="loginForm" action="http://localhost:5000/login" method="post">
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username">
+            <label for="password">Password:</label>
+            <input type="password" name="parola" id="password">
+            <input type="submit">
+        </form>
     </main>
 
     <footer>
         <div id="ftr">
-            <p id="motto"><i>If you don't hear it, you don't feel it !* But first, stay here to see it. _#</i></p>
             <p>@prod.imp0rt / @mihaidanaila11</p>
         </div>
     </footer>
-
 
 </body>
 
