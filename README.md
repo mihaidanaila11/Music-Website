@@ -1,11 +1,11 @@
 # Music-Website
 
-## Testeaza pagina [aici](https://mihaidanaila11.github.io/Music-Website/Landing_Page/landing.html).
+## Testeaza pagina [aici](https://mihaidanaila11.github.io/Music-Website/Landing_Page/landing.html) (fara partea de server).
 
 ## Instructiuni de utilizare a paginii:
 
 Inainte de a porni desrevrul ``index.js`` este nevoie de rularea urmatoarelor comenzi pentru instalarea dependentelor:
-- `` npm install express --save``
+- ``npm install express --save``
 - ``npm install formidable --save``
 - ``npm install express-session –save``
 
