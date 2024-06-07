@@ -9,6 +9,11 @@ Inainte de a porni desrevrul ``index.js`` este nevoie de rularea urmatoarelor co
 - ``npm install formidable --save``
 - ``npm install express-session –save``
 
+Dupa ce dependentele au fost instalate se ruleaza comanda
+``node index.js``
+
+Acum serverul este pregatit si gata de utilizat, accesati in browser adresa ``localhost:5000``.
+
 ## Cerințe generale minimale pentru partea 1 (HTML + CSS):
 HTML:
 
