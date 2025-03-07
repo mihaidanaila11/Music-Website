@@ -1,79 +1,73 @@
 # Music-Website
 
-## Testeaza pagina [aici](https://mihaidanaila11.github.io/Music-Website/Landing_Page/landing.html) (fara partea de server).
+## Test the page [here](https://mihaidanaila11.github.io/Music-Website/Landing_Page/landing.html) (without the server-side functionality).
 
-## Instructiuni de utilizare a paginii:
+## Instructions for using the page:
 
-Inainte de a porni desrevrul ``index.js`` este nevoie de rularea urmatoarelor comenzi pentru instalarea dependentelor:
+Before running the server ``index.js``, you need to execute the following commands to install dependencies:
 - ``npm install express --save``
 - ``npm install formidable --save``
 - ``npm install express-session –save``
 
-Dupa ce dependentele au fost instalate se ruleaza comanda
+After installing the dependencies, run the command:
 ``node index.js``
 
-Acum serverul este pregatit si gata de utilizat, accesati in browser adresa ``localhost:5000``.
+Now the server is ready to use. Access it in your browser at ``localhost:5000``.
 
-## Cerințe generale minimale pentru partea 1 (HTML + CSS):
-HTML:
+## Minimum general requirements for part 1 (HTML + CSS):
+### HTML:
 
-- [x] Trecerea testelor de validare HTML http://validator.w3.org/
+- [x] Pass HTML validation tests at http://validator.w3.org/
+- [x] Use semantic tags presented in the course/lab
 
-- [x] Folosirea tagurilor semantice prezentate la curs/laborator
+### CSS:
 
-CSS:
+- Separate files for HTML and CSS  
+- The site content must be meaningful (avoid filling it with Lorem Ipsum)  
+- The use of frameworks and libraries is not allowed  
 
-Fișiere separate pentru HTML și CSS
-conținutul site-ului trebuie să aibă sens (nu îl umpleți cu Lorem ipsum)
-nu este acceptată folosirea de frameworkuri și librării
-HTML:
+### HTML:
 
-- [x] Trecerea testelor de validare HTML http://validator.w3.org/
-folosirea tagurilor semantice prezentate la curs/laborator
-CSS:
+- [x] Pass HTML validation tests at http://validator.w3.org/
+- Use semantic tags presented in the course/lab
 
-- [x] Trecerea testelor de validare CSS https://jigsaw.w3.org/css-validator/
+### CSS:
 
-- [x] Site-ul trebuie să fie responsive (media query, unități relative, tipuri de display)
+- [x] Pass CSS validation tests at https://jigsaw.w3.org/css-validator/
+- [x] The site must be responsive (media queries, relative units, display types)
+- [x] Use basic CSS selectors (by id, class, tag, content element, child element, nth-of-type)
+- [x] Specify properties such as width, height, color, background, font-size, border, padding, margin, display, etc.
+- Use columns for at least one page layout
+- [x] Create the layout without tables (using flex and grid)
+- [x] The site must include a dropdown menu (or another expandable element) implemented with CSS
+- [x] The site must include a transition that changes multiple properties at different time intervals
+- [x] The site must include an animation that modifies multiple properties of the same element
+- [x] ! Bonus point ! for content generation using :after, :before (must be meaningful; be creative)
 
-- [x] Folosirea selectorilor CSS de bază (după id, clasă, tag, elementContinut, elementCopil, al n-lea copil de tipul unui tag :nth-of-type)
+## Minimum general requirements for part 2 (JavaScript + Node.js misc):
 
-- [x] Specificarea proprietăților: width, height, color, background, font-size, border, padding, margin, display etc.
-folosirea coloanelor pentru layoutul a cel puțin unei pagini; 
+### A. JavaScript
 
-- [x] Realizarea layoutului fără tabele (folosind flex și grid)
+- [x] Separate file for JavaScript code
+- [x] Modify the style of an element or a group of elements
+- [x] DOM manipulation (selection by id, tag, class, using CSS selectors)
+- [x] Create and delete HTML elements
+- [x] Use and modify events triggered by mouse and keyboard
+- [x] Modify properties
+- [x] Functional inputs (e.g., text/range/number/radio/checkbox input, select, textarea)
+- [x] Use setTimeout or setInterval
+- [x] Use localStorage (store a collection of elements in localStorage)
+- [x] Use at least one method from the following classes: Math, Array, String, Date
+- [x] Randomly change the value of a property (e.g., color, size, position)
+- [x] Use properties like classList, target, or currentTarget
+- [x] Use methods like getComputedStyle, stopPropagation
+- [x] Validate form data using regular expressions
 
-- [x] Site-ul trebuie să conțină un menu drop-down (sau altfel expandabil) realizat cu CSS
+### B. AJAX & Node.js
 
-- [x] Site-ul trebuie să conțină o tranziție care implică schimbarea mai multor proprietăți la intervale diferite de timp
+- [x] GET/POST requests: retrieving data from a form
+- [x] AJAX requests fetching data from a JSON file
+- [x] Sessions: login/logout (using Node.js or Storage)
+- [x] Page for 404 error handling
 
-- [x] Site-ul trebuie să conțină o animație care să modifice mai multe proprietăți ale aceluiași element
-
-- [x] ! bonus point ! pentru generarea conținutului folosind :after, :before (dar să aibă sens; fiți creativi)
-
-## Cerințe generale minimale pentru partea 2 (JavaScript + Node.js misc):
-A. JavaScript
-
-- [x] fișier separat pentru codul JavaScript
-- [x] modificarea stilului unui element sau al unui grup de elemente
-- [x] manipularea DOM-ului (selectare după id, tag, clasă, folosind selectori CSS)
-- [x] crearea și stergerea de elemente HTML
-- [x] folosirea și modificarea evenimentelor generate de mouse si tastatură
-- [x] modificare de proprietăți
-- [x] inputuri funcționale (de exemplu: input de tip text/range/number/radio/checkbox, select, textarea)
-- [x] folosirea setTimeout sau setInterval
-- [x] folosirea localStorage (să se pastreze în localStorage o colecție de elemente)
-- [x] folosirea a cel puțin unei metode din clasele: Math, Array, String, Date
-- [x] schimbarea aleatoare a valorilor unei proprietăți (de exemplu: culoare, dimensiuni, poziție)
-- [x] folosirea proprietăților classList, target sau currentTarget
-- [x] folosirea metodelor getComputedStyle, stopPropagation
-- [x] validarea datelor dintr-un formular folosind expresii regulate
-      
-B. AJAX & Node.js
-
-- [x] cereri get/post: preluare date dintr-un formular
-- [x] cereri Ajax cu preluare date dintr-un fișier json
-- [x] sesiuni: login/logout (cu Node.js sau Storage)
-- [x] pagină pentru eroarea 404
-
-- [x] Pe lângă implementarea acestor cerințe minimale (a căror rezolvare corectă nu garantează punctajul maxim), includeți în proiect și tratarea altor probleme (la alegere) precum cea a accesibilității, internaționalizării (traducere, caractere speciale etc.), folosirii canvas/svg etc.
+- [x] In addition to implementing these minimum requirements (which do not guarantee the maximum score), include solutions for other issues (of your choice) such as accessibility, internationalization (translation, special characters, etc.), the use of canvas/svg, etc.
