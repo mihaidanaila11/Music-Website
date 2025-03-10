@@ -1,4 +1,5 @@
 # Music-Website
+**Used Tehnologies: HTML, CSS, JavaScript, Node.js, Express.js**
 
 ## Test the page [here](https://mihaidanaila11.github.io/Music-Website/Landing_Page/landing.html) (without the server-side functionality).
 
